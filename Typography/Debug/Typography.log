@@ -1,0 +1,7 @@
+﻿  Splash.cpp
+c:\users\c00198551\desktop\typography\typography\splash.cpp(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\c00198551\desktop\typography\typography\splash.cpp(41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\c00198551\desktop\typography\typography\splash.cpp(60): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\c00198551\desktop\typography\typography\splash.cpp(118): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  Typography.vcxproj -> C:\Users\c00198551\Desktop\Typography\Debug\Typography.exe
+  Typography.vcxproj -> C:\Users\c00198551\Desktop\Typography\Debug\Typography.pdb (Partial PDB)
