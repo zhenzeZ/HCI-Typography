@@ -22,8 +22,20 @@ public:
 private:
 	Game *m_game;
 
+	void getText();
+
+	int index = 0;
+	float timer = 0;
+	char spaceCheck;
+
 	sf::Font m_font;
-	
+	sf::Text m_textMessage[10];
+	bool displayText[10];
+	int textColor[10];
+
+	std::string word;
+	std::ifstream file;
+	std::list<sf::Text> textList;
 };
 
 #endif CREDITS // !Credits

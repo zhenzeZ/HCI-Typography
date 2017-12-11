@@ -3,7 +3,7 @@
 
 Game::Game():
 	m_window(sf::VideoMode(800, 480), "Typography"),
-	m_currentState(States::Splash)
+	m_currentState(States::Credit)
 {
 	if (!m_font.loadFromFile("./ASSETS/FONTS/ariblk.ttf"))
 	{
@@ -41,6 +41,9 @@ void Game::run()
 	}
 }
 
+/// <summary>
+/// check the states
+/// </summary>
 void Game::update(sf::Time time)
 {
 	switch (m_currentState)
@@ -54,11 +57,17 @@ void Game::update(sf::Time time)
 	case States::Credit:
 		m_credit->update(time.asSeconds());
 		break;
+	case States::Close:
+		m_window.close();
+		break;
 	default:
 		break;
 	}
 }
 
+/// <summary>
+/// display different render by currentState
+/// </summary>
 void Game::render()
 {
 	switch (m_currentState)

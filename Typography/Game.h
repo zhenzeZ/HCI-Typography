@@ -17,12 +17,14 @@
 class Licence;
 class Splash;
 class Credit;
+class Close;
 
 enum class States
 {
 	Licence,
 	Splash,
-	Credit
+	Credit,
+	Close
 };
 
 class Game
