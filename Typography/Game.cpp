@@ -3,7 +3,7 @@
 
 Game::Game():
 	m_window(sf::VideoMode(800, 480), "Typography"),
-	m_currentState(States::Credit)
+	m_currentState(States::Licence)
 {
 	if (!m_font.loadFromFile("./ASSETS/FONTS/ariblk.ttf"))
 	{
